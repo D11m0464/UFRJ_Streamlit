@@ -20,12 +20,11 @@ import streamlit as st
 st.set_page_config(layout="wide")
 
 
-
 pg=st.navigation(
 {
-   "🏞️ Home " :[st.Page("Home.py",title="Home")],
-   "📊 Dashboards " : [st.Page("sei.py",title=" SEI"),st.Page("pr4.py",title=" PR4"),st.Page("osticket.py",title=" Ticket")],
-   "📄 Relatórios " : [],
+   " Home " :[st.Page("Home.py",title="Home")],
+   " Dashboards " : [st.Page("sei.py",title=" SEI"),st.Page("pr4.py",title=" PR4"),st.Page("osticket.py",title=" Ticket")],
+   " Relatórios " : [st.Page("sei_rel.py",title=" SEI")],
    "✖ Sair ": [] 
    
 
