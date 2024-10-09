@@ -11,7 +11,7 @@ relatorio=coluna_esquerda.selectbox('Relatórios', options=['Protocolos_Abertos'
 if relatorio == 'Protocolos_Abertos':
        container_dash,container_lateral=st.columns([5,1],gap='small',vertical_alignment='top')
 
-       container_dash.container()._iframe(src='https://dashboard.ccbi.tic.ufrj.br/public/dashboard/2c051ef0-22b4-489d-a7c0-ca1b94df7811', width=1500,height=1200,scrolling=True) 
+       container_dash.container()._iframe(src='https://dashboard.ccbi.tic.ufrj.br/public/question/c43cac71-fa21-4577-98c6-be88b8895c88', width=1500,height=1200,scrolling=True) 
  
 
 
