@@ -7,7 +7,7 @@ st.set_page_config(layout="wide", page_title="UFRJ-CCBI")
 
 
 
-senhas_criptografadas = stauth.Hasher(["123456", "123123", "333333"]).generate()
+senhas_criptografadas = stauth.Hasher(["123456", "123123", "444444"]).generate()
 
 
 #senhas_criptografadas = ["123456", "123123", "333333"]
